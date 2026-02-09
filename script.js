@@ -1,5 +1,4 @@
 //include it here all the ids
-
 const title = document.getElementById("title");
 const Nameinput = document.getElementById("Nameinput");
 const ageinput = document.getElementById("ageinput");
@@ -37,7 +36,4 @@ btnclick.addEventListener("click", function(){
         output.innerHTML +=  '<p style="color:red;">Please Enter Your Name!.</p>';
         
     }
-
-
-
 });
