@@ -1,12 +1,19 @@
 body {
-  background: linear-gradient(135deg, #dcd5d5, #c9c9c9);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+
+  /* Background image */
+  background-image: url('image.jpg');
+  background-size: cover;       /* make image cover entire body */
+ 
+  background-repeat: no-repeat; /* avoid repeating tiles */
+  
 }
+
 
 /* Card */
 .container {
